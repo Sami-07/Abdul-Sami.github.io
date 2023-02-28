@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="resptemp.css">
+    <link rel="icon" type="image/x-icon" href="images/fav.jpg">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <img src="images/S logo.png" id="nav_logo" alt="">
+    <nav class="flex-center">
+
+        <ul class="myUL v-class">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="contact.html">Contact Me</a> </li>
+            <li> <a href="blogs.html">Blogs</a> </li>
+            <li> <a href="projects.html">Projects</a> </li>
+        </ul>
+
+        <div class="socials v-class">
+            <div class="imgx">
+                <a href="https://www.instagram.com/ig_sami7/"><img class="socials-icons" src="images/instagram.png"
+                        alt=""></a>
+            </div>
+            <div class="imgx"> <a href="https://www.linkedin.com/in/shaikh-abdul-sami-879287211/"><img
+                        class="socials-icons" src="images/linkedin.png" alt=""></a> </div>
+            <div class="imgx"> <a href="https://twitter.com/sami73010"><img class="socials-icons"
+                        src="images/twitter.png" alt=""></a> </div>
+            <div class="imgx"> <a href="https://github.com/Sami-07"><img class="socials-icons git-hub-icon"
+                        src="images/github logo.png" alt=""></a> </div>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <img src="images/portrait bg.jpg" class="bgx" alt="">
+    <div class="contactform-main">
+
+        <div class="main-head">
+            <h1 class="contact-heading">Contact Me</h1>
+            <p class="contact-subhead">I am open for internships for Front end Web Development. Feel free to contact me
+                if
+                you
+                are hiring :)</p>
+        </div>
+        <h2 class="contact-subhead meeting-head">Fill out these details to schedule a zoom meeting with me.
+            <br>
+            You can also reach me out on my socials which are linked at the top right.
+        </h2>
+        <div class="full">
+            <form action="mailto:s.a.sami359359@gmail.com" method="post" enctype="text/plain">
+                <div class="sub-sec">
+                    <p>Enter you Name</p>
+                    <input type="text" name="Name" id="">
+                </div>
+                <div class="sub-sec">
+                    <p>Enter you Email</p>
+                    <input type="email" name="Email" id="">
+                </div>
+                <div class="sub-sec">
+                    <p>Select a date to Schedule a meeting with me according to your convicience.</p>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="sub-sec">
+                    <p>Enter your Queries</p>
+                    <textarea class="msg" name="Message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="temp"> <input type="submit" name="" id=""></div>
+
+                <!-- <div class="sub-sec">
+            <a href="mailto:s.a.sami359359@gmail.com"> <button class="contact-submit-btn">Submit</button></a> 
+        </div> -->
+        </div>
+        <!-- <a href="mailto:s.a.sami359359@gmail.com">MAIL ME</a>   -->
+        </form>
+    </div>
+
+</body>
+<footer>
+    <a href="contact.html" class="contact-link-footer">CONTACT ME</a>
+    <div class="footer-logos">
+        <a href="https://www.linkedin.com/in/shaikh-abdul-sami-879287211/"><img src="images/linkedin.png"
+                class="foot-logo" alt=""></a>
+        <a href="https://www.instagram.com/ig_sami7/"> <img src="images/instagram.png" class="foot-logo" alt=""></a>
+        <a href="https://twitter.com/sami73010"><img src="images/twitter.png" class="foot-logo" alt=""></a>
+        <a href="https://github.com/Sami-07"> <img src="images/github logo.png" class="foot-logo" alt=""> </a>
+    </div>
+    <p>&copy; 2023-2033 - Shaikh Abdul Sami - All Rights Reserved.
+        <br>
+        The credits of all the images and logos used in this website goes to the respective owners.
+    </p>
+</footer>
+<script src="script.js"></script>
+<script>
+    document.querySelector(".burger").addEventListener("click", function () {
+        document.querySelector(".contactform-main").classList.toggle("main-height2");
+    })
+</script>
+
+</html>

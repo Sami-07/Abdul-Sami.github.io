@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1068px) {
+    nav ul {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .flex-center {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    nav ul li a {
+        text-align: center;
+    }
+
+
+
+    .burger {
+        display: block;
+    }
+
+    .img-liq {
+        position: absolute;
+        top: 5px;
+        right: 19px;
+        margin: auto;
+        margin-bottom: 200px;
+    }
+
+    .img {
+        max-width: 40vw;
+        margin: auto;
+        right: 28vw;
+        top: 14vh;
+
+    }
+
+    .liquid-img {
+        max-width: 58.2vw;
+        margin: auto;
+        top: 94px;
+        right: 81px;
+
+    }
+
+    .left-main {
+        position: absolute;
+        width: 100px;
+        /* right: 625px;
+        top: 283px; */
+        right: 88%;
+        top: 15%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name-title {
+        width: 272px;
+        /* width: 272px ; */
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .role-title {
+        font-size: 30px;
+    }
+
+    .about-me-btn {
+        margin-top: 54px;
+        width: 200px;
+        /* width: 200px; */
+    }
+
+    .white-img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .bg2 {
+        display: block;
+        height: 70vh;
+        width: 100vw;
+
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+
+
+
+
+}
