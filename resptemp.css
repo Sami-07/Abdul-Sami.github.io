@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1068px) {
+ 
     nav ul {
         flex-direction: column;
         justify-content: space-around;
@@ -33,15 +34,12 @@
         max-width: 40vw;
         margin: auto;
         right: 28vw;
-        top: 14vh;
+        top: -6vh;
 
     }
 
     .liquid-img {
-        max-width: 58.2vw;
-        margin: auto;
-        top: 94px;
-        right: 81px;
+  display: none;
 
     }
 
@@ -51,9 +49,13 @@
         /* right: 625px;
         top: 283px; */
         right: 88%;
-        top: 15%;
+        top: -82px;
         display: flex;
         justify-content: space-between;
+    }
+    .column-resp{
+        position: relative;
+        top: 100px;
     }
 
     .name-title {
@@ -92,7 +94,10 @@
     .v-class {
         visibility: hidden;
     }
-
+    footer{
+        position: relative;
+        top: 609px;
+    }
 
 
 
